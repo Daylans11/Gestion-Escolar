@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReporteAsignacion" targetNamespace="http://tempuri.org/dsReporteAsignacion.xsd" xmlns:mstns="http://tempuri.org/dsReporteAsignacion.xsd" xmlns="http://tempuri.org/dsReporteAsignacion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReporteAsignacion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="dsReporteAsignacion" msprop:Generator_DataSetName="dsReporteAsignacion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAsignacion" msprop:Generator_RowEvHandlerName="dtAsignacionRowChangeEventHandler" msprop:Generator_RowDeletedName="dtAsignacionRowDeleted" msprop:Generator_RowDeletingName="dtAsignacionRowDeleting" msprop:Generator_RowEvArgName="dtAsignacionRowChangeEvent" msprop:Generator_TablePropName="dtAsignacion" msprop:Generator_RowChangedName="dtAsignacionRowChanged" msprop:Generator_RowChangingName="dtAsignacionRowChanging" msprop:Generator_TableClassName="dtAsignacionDataTable" msprop:Generator_RowClassName="dtAsignacionRow" msprop:Generator_TableVarName="tabledtAsignacion" msprop:Generator_UserTableName="dtAsignacion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Estudiante" msprop:Generator_ColumnPropNameInRow="Estudiante" msprop:Generator_ColumnPropNameInTable="EstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnEstudiante" msprop:Generator_UserColumnName="Estudiante" type="xs:string" minOccurs="0" />
+              <xs:element name="Materia" msprop:Generator_ColumnPropNameInRow="Materia" msprop:Generator_ColumnPropNameInTable="MateriaColumn" msprop:Generator_ColumnVarNameInTable="columnMateria" msprop:Generator_UserColumnName="Materia" type="xs:string" minOccurs="0" />
+              <xs:element name="Profesor" msprop:Generator_ColumnPropNameInRow="Profesor" msprop:Generator_ColumnPropNameInTable="ProfesorColumn" msprop:Generator_ColumnVarNameInTable="columnProfesor" msprop:Generator_UserColumnName="Profesor" type="xs:string" minOccurs="0" />
+              <xs:element name="Periodo" msprop:Generator_ColumnPropNameInRow="Periodo" msprop:Generator_ColumnPropNameInTable="PeriodoColumn" msprop:Generator_ColumnVarNameInTable="columnPeriodo" msprop:Generator_UserColumnName="Periodo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
